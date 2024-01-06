@@ -21,5 +21,6 @@ RUN tlmgr update --self && \
         placeins \ 
         greek-fontenc \ 
         cyrillic \
+        lh \
         babel-greek && \ 
     texhash

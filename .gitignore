@@ -302,3 +302,5 @@ TSWLatexianTemp*
 
 # glossaries
 *.glstex
+
+out/

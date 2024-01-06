@@ -22,12 +22,14 @@
                 },
                 "latex-workshop.latexindent.path": "latexindent",
                 "latex-workshop.latexindent.args": [
+                    "-g=/dev/null",
                     "-c",
                     "%DIR%/",
                     "%TMPFILE%",
                     "-y=defaultIndent: '%INDENT%'"
                 ],
-                "latex-workshop.latex.clean.method": "glob"
+                "latex-workshop.latex.clean.method": "glob",
+                "latex-workshop.latex.outDir": "%DIR%/out"
             }
         }
     }
